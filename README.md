@@ -41,8 +41,8 @@
 2. You must add an additional case to the switch statement, change the 4 in Math.RandomInt(0,4) to how many classes you have in total.
 
   (Before Additional Class)
-    ```c
-      switch (Math.RandomInt(0, 4)) {
+```c
+switch (Math.RandomInt(0, 4)) {
         case 0:
           dress_player(player, Assault_Clothing, Uniform);
           arm_player(player, Assault_Gun, Assault_Attachments);
@@ -68,9 +68,10 @@
           meleeWeapon = player.GetInventory().CreateInInventory(oneHanders.GetRandomElement());
           break;
       }
-    ```
-  (After Additional Class)
-    ```c
+```
+
+(After Additional Class)
+```c
       switch (Math.RandomInt(0, 5) {
         case 0:
           dress_player(player, Assault_Clothing, Uniform);
@@ -103,7 +104,7 @@
           meleeWeapon = player.GetInventory().CreateInInventory(oneHanders.GetRandomElement());
           break;
       }
-    ```
+ ```
 3. Finally, you need to call dress_player(), arm_player(), and give_utilities() inside of the new case and pass the correct inputs into those functions.
 
 ### Reminder:
