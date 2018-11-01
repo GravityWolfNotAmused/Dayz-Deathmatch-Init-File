@@ -7,7 +7,7 @@
 
 ### Adding New Class:
 1. In order to create a new type of class, you must create the same basic layout of TStringArrays, and strings; however, you must name the variable something different than the other classes.
-2. You must add an additional case to the switch statement, change the max/5 for Math.RandomInt(0,5) to how many classes you have in total.
+2. You must add an additional case to the switch statement, change the max/5 for Math.RandomInt(0,4) to how many classes you have in total.
 3. Finally, you need to call dress_player(), arm_player(), and give_utilities() inside of the new case and pass the correct inputs into those functions.
 
 # DO NOT FORGET TO CHANGE YOUR SPAWN POINTS TO A SINGLE TOWN/AREA INSIDE OF cfgplayerspawnpoints.xml
