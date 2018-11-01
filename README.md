@@ -20,10 +20,10 @@
       
 (After change) 
 ```c
-          autoptr TStringArray Assault_Clothing = {"BandanaMask_CamoPattern", "BallisticHelmet_Green", "USMCJacket_Woodland", "USMCPants_Woodland"};
-          string Assault_Gun = "AK74";
-          autoptr TStringArray Assault_Attachments = {"AK74_Hndgrd", "AK74_WoodBttstck"};
-          string Assault_Mag = "Mag_AK74_30Rnd";
+  autoptr TStringArray Assault_Clothing = {"BandanaMask_CamoPattern", "BallisticHelmet_Green", "USMCJacket_Woodland", "USMCPants_Woodland"};
+  string Assault_Gun = "AK74";
+  autoptr TStringArray Assault_Attachments = {"AK74_Hndgrd", "AK74_WoodBttstck"};
+  string Assault_Mag = "Mag_AK74_30Rnd";
 ```
 
 2. ...
