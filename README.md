@@ -8,7 +8,7 @@
 ### To Change Spawn Item Values:
 1. Change the values between the "" to the names of items which you wish to replace.
 
-  1. Anything with multiple items like Assault_Attachments, you should only replace one time. Make sure that it is seperated by a comma, only if there is an item that comes after it in the collection.
+  2. Anything with multiple items like Assault_Attachments, you should only replace one time. Make sure that it is seperated by a comma, only if there is an item that comes after it in the collection.
     Example:
       (Before Change)
       
@@ -27,8 +27,8 @@
   string Assault_Mag = "Mag_AK74_30Rnd";
 ```
 
-1. ...
-1. Profit, it's that easy.
+3. ...
+4. Profit, it's that easy.
 
 ### Adding New Class:
 1. In order to create a new type of class, you must create the same basic layout of TStringArrays, and strings; however, you must name the variable something different than the other classes.
