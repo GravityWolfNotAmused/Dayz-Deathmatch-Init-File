@@ -140,7 +140,7 @@ class CustomMission : MissionServer {
 
         EntityAI meleeWeapon;
 
-        switch (Math.RandomInt(0, 5)) {
+        switch (Math.RandomInt(0, 4)) {
             case 0:
                 dress_player(player, Assault_Clothing, Uniform);
                 arm_player(player, Assault_Gun, Assault_Attachments);
@@ -164,11 +164,6 @@ class CustomMission : MissionServer {
                 arm_player(player, Medic_Gun, Medic_Attachments);
                 give_utilities(player, Utilities, bag_name, Medic_Mag);
                 meleeWeapon = player.GetInventory().CreateInInventory(oneHanders.GetRandomElement());
-                break;
-            case 4:
-                dress_player(player,Tonys_Clothing, Uniform);
-                EntityAI tonys_class = player.GetHumanInventory().CreateInHands(Tonys_Weapon);
-                give_utilities(player, Utilities, bag_name, "");
                 break;
         }
     }
