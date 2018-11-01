@@ -81,12 +81,6 @@ class CustomMission : MissionServer {
      */
     autoptr TStringArray oneHanders = {"Machete", "HuntingKnife", "KitchenKnife"};
 
-    /*
-     * Tony's Class
-     */
-    autoptr TStringArray Tonys_Clothing = {"GREATHELM", "MiniDress_BlueChecker"};
-    string Tonys_Weapon = "Sword";
-
     void addMags(PlayerBase player, string mag_type, int count) {
         if (count < 1)
             return;
