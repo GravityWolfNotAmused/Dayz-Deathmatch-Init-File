@@ -5,38 +5,29 @@
 ### Config:
 ####   In order for you to change the classes, change the string which are stored TStringArrays, and strings to match the items you wish for the class to spawn with.
 
-[code]
-    autoptr TStringArray Assault_Clothing = {"BandanaMask_CamoPattern", "BallisticHelmet_Green", "USMCJacket_Woodland", "USMCPants_Woodland"};
-    string Assault_Gun = "M4A1";
-    string Assault_SideArm = "MakarovIJ70";
-    autoptr TStringArray Assault_SideArm_Attachments = {"MakarovPBSuppressor"};
-    autoptr TStringArray Assault_Attachments = {"M4_CQBBttstck_Black", "ACOGOptic", "M4_RISHndgrd_Black"};
-    string Assault_Mag = "MAG_STANAG_30Rnd";
-[/code]
-
-### To Change Item Values:
+### To Change Spawn Item Values:
 1. Change the values between the "" to the names of items which you wish to replace. 
   1.Anything with multiple items like Assault_Attachments, you should only replace one time. Make sure that it is seperated by a comma, only if there is an item that comes after it in the collection.
     Example:
 (Before Change)
-[code]
+```c
     autoptr TStringArray Assault_Clothing = {"BandanaMask_CamoPattern", "BallisticHelmet_Green", "USMCJacket_Woodland", "USMCPants_Woodland"};
     string Assault_Gun = "M4A1";
     string Assault_SideArm = "MakarovIJ70";
     autoptr TStringArray Assault_SideArm_Attachments = {"MakarovPBSuppressor"};
     autoptr TStringArray Assault_Attachments = {"M4_CQBBttstck_Black", "ACOGOptic", "M4_RISHndgrd_Black"};
     string Assault_Mag = "MAG_STANAG_30Rnd";
-[/code]
+```
       
 (After change)
-[code]
+```c
     autoptr TStringArray Assault_Clothing = {"BandanaMask_CamoPattern", "BallisticHelmet_Green", "USMCJacket_Woodland", "USMCPants_Woodland"};
     string Assault_Gun = "AK74";
     string Assault_SideArm = "MakarovIJ70";
     autoptr TStringArray Assault_SideArm_Attachments = {"MakarovPBSuppressor"};
     autoptr TStringArray Assault_Attachments = {"AK74_Hndgrd", "AK74_WoodBttstck"};
     string Assault_Mag = "Mag_AK74_30Rnd";
-[/code]
+```
 2. ...
 3. Profit, it's that easy.
 
