@@ -9,9 +9,10 @@
 1. Change the values between the "" to the names of items which you wish to replace.
 
   2. Anything with multiple items like Assault_Attachments, you should only replace one at a time. Make sure that it is seperated by a comma, only if there is an item that comes after it in the collection, and be sure that each item name is surrounded in "".
+  
     Example:
     
-      (Before Change)
+(Before Change)
       
 ```c
   autoptr TStringArray Assault_Clothing = {"BandanaMask_CamoPattern", "BallisticHelmet_Green", "USMCJacket_Woodland", "USMCPants_Woodland"};
