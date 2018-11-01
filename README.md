@@ -44,6 +44,8 @@
 
 2. You must add an additional case to the switch statement, change the 4 in Math.RandomInt(0,4) to how many classes you have in total.
 
+3. Finally, you need to call dress_player(), arm_player(), and give_utilities() inside of the new case and pass the correct inputs into those functions.
+
   (Before Additional Class)
 ```c
 switch (Math.RandomInt(0, 4)) {
@@ -109,7 +111,6 @@ switch (Math.RandomInt(0, 4)) {
           break;
       }
  ```
-3. Finally, you need to call dress_player(), arm_player(), and give_utilities() inside of the new case and pass the correct inputs into those functions.
 
 ### Reminder:
   Some items, which maybe provided by Item name lists, may not be completely integrated yet. I've had this issue testing the M249, and one AK, I believe it was the AK101; however, this could changed with DayZ Updates.
