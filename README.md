@@ -10,20 +10,21 @@
   1.Anything with multiple items like Assault_Attachments, you should only replace one time. Make sure that it is seperated by a comma, only if there is an item that comes after it in the collection.
     Example:
       (Before Change)
-        ```c
-          autoptr TStringArray Assault_Clothing = {"BandanaMask_CamoPattern", "BallisticHelmet_Green", "USMCJacket_Woodland", "USMCPants_Woodland"};
-          string Assault_Gun = "M4A1";
-          autoptr TStringArray Assault_Attachments = {"M4_CQBBttstck_Black", "ACOGOptic", "M4_RISHndgrd_Black"};
-          string Assault_Mag = "MAG_STANAG_30Rnd";
-        ```
       
-      (After change)
-        ```c
+```c
+  autoptr TStringArray Assault_Clothing = {"BandanaMask_CamoPattern", "BallisticHelmet_Green", "USMCJacket_Woodland", "USMCPants_Woodland"};
+  string Assault_Gun = "M4A1";
+  autoptr TStringArray Assault_Attachments = {"M4_CQBBttstck_Black", "ACOGOptic", "M4_RISHndgrd_Black"};
+  string Assault_Mag = "MAG_STANAG_30Rnd";
+```
+      
+(After change) 
+```c
           autoptr TStringArray Assault_Clothing = {"BandanaMask_CamoPattern", "BallisticHelmet_Green", "USMCJacket_Woodland", "USMCPants_Woodland"};
           string Assault_Gun = "AK74";
           autoptr TStringArray Assault_Attachments = {"AK74_Hndgrd", "AK74_WoodBttstck"};
           string Assault_Mag = "Mag_AK74_30Rnd";
-        ```
+```
 
 2. ...
 3. Profit, it's that easy.
