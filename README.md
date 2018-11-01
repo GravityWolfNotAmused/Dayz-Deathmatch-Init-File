@@ -1,4 +1,4 @@
-# Dayz Init File
+# Dayz Deathmatch Init File
 ## The creation of this file was simply to get my feet wet with EnforceScript API.
 ## Please feel free to ask questions, or post updates. I am trying to get things as simply written as possible.
 
