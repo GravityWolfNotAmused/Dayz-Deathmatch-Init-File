@@ -27,8 +27,8 @@
   string Assault_Mag = "Mag_AK74_30Rnd";
 ```
 
-2. ...
-3. Profit, it's that easy.
+1. ...
+1. Profit, it's that easy.
 
 ### Adding New Class:
 1. In order to create a new type of class, you must create the same basic layout of TStringArrays, and strings; however, you must name the variable something different than the other classes.
