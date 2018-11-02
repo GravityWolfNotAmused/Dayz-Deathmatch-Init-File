@@ -38,7 +38,7 @@
 ```c
   autoptr TStringArray new_class = {"BandanaMask_CamoPattern", "BallisticHelmet_Green", "USMCJacket_Woodland", "USMCPants_Woodland"};
   string new_class_gun = "AK74";
-  autoptr TStringArray new_class_gun = {"AK74_Hndgrd", "AK74_WoodBttstck"};
+  autoptr TStringArray new_class_gun_attachments = {"AK74_Hndgrd", "AK74_WoodBttstck"};
   string new_class_mag = "Mag_AK74_30Rnd";
 ```
 
@@ -105,7 +105,7 @@ switch (Math.RandomInt(0, 4)) {
           break;
         case 4:
           dress_player(player, new_class_clothing, Uniform);
-          arm_player(player, new_class_gun, new_class_attachments);
+          arm_player(player, new_class_gun, new_class_gun_attachments);
           give_utilities(player, Utilities, bag_name, new_class_mag);
           meleeWeapon = player.GetInventory().CreateInInventory(oneHanders.GetRandomElement());
           break;
