@@ -33,9 +33,6 @@ class CustomMission : MissionServer {
      *      If you do not understand what something is being used for please read the comments above every function.
     */
 
-    //Mag Count
-    int magCount = 2;
-
     //Bag Name
     string bag_name = "SmershBag";
 
@@ -119,6 +116,7 @@ class CustomMission : MissionServer {
      * @param    count: Number of each mag which needs to be given.
      * @param    toQuickBar: Should be added to the quick bar, or not.
      */
+    int magCount = 2;
     void addMags(PlayerBase player, TStringArray magArray, int count, bool toQuickBar) {
         if (count < 1 || magArray.Count() < 1)
             return;
