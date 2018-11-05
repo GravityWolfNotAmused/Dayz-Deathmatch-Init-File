@@ -26,7 +26,7 @@ autoptr TStringArray Assault_Mags = {"MAG_STANAG_30Rnd", "MAG_IJ70_8RND"};
 (After change) 
 ```c
 autoptr TStringArray Assault_Clothing = {"BandanaMask_CamoPattern", "BallisticHelmet_Green", "USMCJacket_Woodland", "USMCPants_Woodland"};
-string Assault_Gun = "M4A1";
+string Assault_Gun = "AKM";
 string Assault_SideArm = "MakarovIJ70";
 autoptr TStringArray Assault_SideArm_Attachments = {"MakarovPBSuppressor"};
 autoptr TStringArray Assault_Attachments = {"AK_Woodbttstck", "AK_RailHndgrd" };
