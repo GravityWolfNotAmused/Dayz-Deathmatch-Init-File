@@ -1,7 +1,6 @@
 # Dayz Deathmatch Init File
 ## The creation of this file was simply to get my feet wet with EnforceScript API.
 ## Please feel free to ask questions, or post updates. I am trying to get things as simply written as possible.
-[![GitHub version](https://github.com/GravityWolfNotAmused/Dayz-Deathmatch-Init-File/tree/1.0)](https://github.com/Naereen/StrapDown.js)
 
 ### Config:
 ####   In order for you to change the classes, change the string which are stored TStringArrays, and strings variables to match the items you wish for the class to spawn with.
